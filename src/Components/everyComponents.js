@@ -10,7 +10,7 @@ ___________________________
 */
 export const ContenedorPrincipal = styled.div`
 
-  @media screen and (max-width:480px){
+  @media screen and (max-width:576px){
     width: 100%;
   }
   @media screen and (max-width:768px){
@@ -29,7 +29,7 @@ ___________________________
 
 */
 export const Head  = styled.header`
-@media screen and (max-width: 480px){
+@media screen and (max-width: 576px){
   width: auto;
   height: 5em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -96,7 +96,7 @@ ___________________________
 
 */
 export const ContainerMain = styled.main`
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 576px) {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -113,12 +113,13 @@ export const ContainerMain = styled.main`
   }
 `
 export const ContainerCategories = styled.section`
-    @media screen and (max-width:480px){
+    @media screen and (max-width:576px){
         height: auto;
         width: 100%;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
         display: flex;
         justify-content: center;
+        gap: 20px;
         img{
             width: 80px;
             height: 80px;
@@ -130,7 +131,7 @@ export const ContainerCategories = styled.section`
     }
 `
 export  const CardContainer = styled.article`
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 576px) {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -144,7 +145,7 @@ export  const CardContainer = styled.article`
 `;
 
 export  const Card = styled.div`
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 576px) {
     width: 90%;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
@@ -156,7 +157,7 @@ export  const Card = styled.div`
 `;
 
 export  const CardTittle = styled.div`
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 576px) {
     display: flex;
     width: 87%;
     position: relative;
@@ -190,7 +191,7 @@ export  const CardTittle = styled.div`
   }
 `;
 export  const CardInfo = styled.div`
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 576px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,7 +208,7 @@ export  const CardInfo = styled.div`
 `;
 
 export  const Button = styled.button`
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 576px) {
 
   padding: 0.8em ;
   height: 37px;
@@ -241,7 +242,7 @@ export  const Button = styled.button`
 `;
 
 export const CardPrice = styled.div`
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 576px){
     width: 100%;
     display: flex;
     align-items: center;
@@ -263,7 +264,7 @@ ___________________________
 
 */
 export const ContainerFoot = styled.footer`
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 576px) {
     margin-top: 5em;
     width: 100%;
     height: 7em;
@@ -278,7 +279,7 @@ export const ContainerFoot = styled.footer`
   }
   }
 
-  @media screen and (min-width:768px){
+  @media screen and (min-width:576px){
 
   }
 `;
