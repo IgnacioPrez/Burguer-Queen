@@ -29,10 +29,7 @@ const CardProduct = () => {
            
             </CardInfo>
             <CardPrice>
-            <h4>
-              Precio:  
-              <span>{` $${burguer.price}`}</span>
-            </h4>
+            <h4>{`Precio: $${burguer.price}`}</h4>
                 <Button>Agregar</Button>
             </CardPrice>
 
