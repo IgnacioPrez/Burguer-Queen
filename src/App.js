@@ -1,26 +1,18 @@
-import React from 'react'
-import styled from 'styled-components'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Main from './Components/Main'
+import { ContenedorPrincipal } from './Components/everyComponents'
 
 const App = () => {
   return (
-    <Principal>
+    <ContenedorPrincipal>
       <Header/>
       <Main/>
       <Footer/>
-    </Principal>
+    </ContenedorPrincipal>
   )
 }
 
 export default App
 
-const Principal = styled.div`
-  @media screen and (min-width: 320px){
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 100%;
-}
-`
+

@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import { GrInstagram, GrFacebook } from "react-icons/gr";
+import { ContainerFoot } from "./everyComponents";
 
 const Footer = () => {
   return (
@@ -17,21 +17,4 @@ const Footer = () => {
 
 export default Footer;
 
-const ContainerFoot = styled.footer`
-  @media screen and (min-width: 320px) {
-    margin-top: 5em;
-    width: 100%;
-    height: 7em;
-    background-color: #0D0D0D;
 
-    display: flex;
-
-  }
-  svg {
-    cursor: pointer;
-    padding: 1em;
-    color: #fff;
-    font-size: xx-large;
-  }
-  
-`;

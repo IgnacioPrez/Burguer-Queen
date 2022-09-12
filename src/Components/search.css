@@ -12,7 +12,7 @@
     font-family: inherit;
     width: 100%;
     border: none;
-    border-bottom: 2px solid #F7F78E;
+    border-bottom: 2px solid #8C8C8C;
     outline: 0;
     font-size: 17px;
     color: #fff;
@@ -37,7 +37,7 @@
     display: block;
     transition: 0.2s;
     font-size: 17px;
-    color: #F7F78E;
+    color: #8C8C8C;
     pointer-events: none;
     font-family:'Fjalla One', sans-serif;
 
@@ -47,8 +47,9 @@
     padding-bottom: 6px;
     font-weight: 700;
     border-width: 3px ;
-    border-bottom: 2px solid #fff;
-    color: #F7F78E;
+    border-bottom: 3px solid #FF6666;
+    color: #8C8C8C;
+
   }
   
   .form__field:focus ~ .form__label {
