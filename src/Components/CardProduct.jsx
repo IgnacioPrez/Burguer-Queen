@@ -23,20 +23,15 @@ const CardProduct = () => {
             </CardTittle>
             <CardInfo>
               <img src={burguer.img} alt={burguer.name} />
-              {/*               <div id="contenedor">{burguer.ingredient.map((ingre)=> (
-              <p>{ingre}</p>))}</div> */}
-              {/* <p>{`Ingredientes: ${burguer.ingredient.join(' ')}`}</p> */}
-           
             </CardInfo>
             <CardPrice>
-            <h4>{`Precio: $${burguer.price}`}</h4>
+                <h4>{`Precio: $${burguer.price}`}</h4>
                 <Button>Agregar</Button>
             </CardPrice>
 
           </Card>
         );
       })}
-      {console.log(burguerProductos)}
     </CardContainer>
   );
 };

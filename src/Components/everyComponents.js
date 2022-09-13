@@ -10,11 +10,14 @@ ___________________________
 */
 export const ContenedorPrincipal = styled.div`
   @media screen and (max-width:576px){
+    background-color: aliceblue;
     width: 100%;
   }
   @media screen and (min-width:768px){
+    background-color: aliceblue;
     width: 100%;
   }
+
 `
 
 
@@ -94,6 +97,23 @@ svg{
 }
 }
 `
+export const BubbleAlert = styled.div`
+  @media screen and (max-width: 576px){
+    display: flex;
+    width: auto;
+    span{
+      position: relative;
+      background-color: #FF3333;
+      border-radius: 50%;
+      height: max-content;
+      width: 20px;
+      text-align: center;
+      color: #fff;
+      right: 20px;
+    }
+
+  }
+`
 
 
 /* 
@@ -113,7 +133,6 @@ export const ContainerMain = styled.main`
     margin-bottom: 3em;
     gap: 50px;
     align-items: center;
-    background-color: #E6E6E6;
 
   }
   @media screen and (min-width:768px){
@@ -137,11 +156,11 @@ export const ContainerCategories = styled.section`
     @media screen and (max-width:576px){
         height: auto;
         width: 100%;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
         display: flex;
         justify-content: center;
         gap: 20px;
         img{
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
             width: 80px;
             height: 80px;
             cursor: pointer;
@@ -170,7 +189,7 @@ export  const CardContainer = styled.article`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
   }
   @media screen and (min-width: 768px){
     width: 100%;
@@ -191,10 +210,11 @@ export  const CardContainer = styled.article`
 export  const Card = styled.div`
   @media screen and (max-width: 576px) {
     width: 80%;
-    height: 25em;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
-    padding: 0.5em;
   }
   @media screen and (min-width: 768px){
     width:28em;
@@ -204,22 +224,21 @@ export  const Card = styled.div`
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
   }
   @media screen and (min-width: 1024px){
-    width: 21.5em;
-    height: 30em;
+    width: 18.5em;
+    height: 27em;
   }
 `;
 
 export  const CardTittle = styled.div`
   @media screen and (max-width: 576px) {
     display: flex;
-    width: 96%;
+    width: max-content;
     position: relative;
-    top: 180px;
-    left: 6px;
+    top: 30px;
+    left: 45px;
     height:auto;
-    border-radius: 0px ;
+    border-radius: 7px ;
     color: rgb(255, 255, 255,0.9);
-    background: rgb(0, 0, 0,0.4);
     z-index: 2;
     gap: 10px;
     align-items: center;
@@ -230,13 +249,14 @@ export  const CardTittle = styled.div`
       z-index: 2;
       opacity: 0.7;
     }
-    h4{
-      z-index: 2;
-  
-    }
+
     h3 {
       font-family: "Oswald", sans-serif;
       z-index: 2;
+      color: #fff;
+      font-size: x-large;
+      font-weight: bold;
+      letter-spacing: 2px;
     }
   }
   @media screen and (min-width: 768px){
@@ -269,9 +289,9 @@ export  const CardTittle = styled.div`
     }
   }
   @media screen and (min-width: 1024px){
-    width: 65%;
+    width: 75%;
     top: 160px;
-    left:60px;
+    left:37px;
     height:auto;
     border-radius: 0px ;
   }
@@ -282,8 +302,10 @@ export  const CardInfo = styled.div`
     flex-direction: column;
     align-items: center;
     img {
-      width:18em;
-      height: 17.9em;
+      width:260px;
+      height: 240px;
+      position: relative;
+      bottom: 40px;
       border-radius: 10px;
     }
   }
@@ -380,6 +402,7 @@ export const CardPrice = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
+    margin:0 ;
     justify-content: space-between;
     h4{
       font-size: 17px;
