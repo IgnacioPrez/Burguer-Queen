@@ -113,6 +113,22 @@ export const BubbleAlert = styled.div`
     }
 
   }
+  @media screen and (min-width:768px){
+    display: flex;
+    width: auto;
+    span{
+      position: relative;
+      background-color: #FF3333;
+      border-radius: 50%;
+      height: max-content;
+      width: 20px;
+      text-align: center;
+      color: #fff;
+      right: 65px;
+      top: 28px;
+    }
+
+  }
 `
 
 
